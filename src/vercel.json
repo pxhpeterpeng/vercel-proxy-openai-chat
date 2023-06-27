@@ -5,20 +5,7 @@
             "source": "/:match*",
             "destination": "https://chat.openai.com/:match*"
         }
-         payload = json.dumps({
-  "model": "gpt-3.5-turbo",
-  "messages": [
-    {
-      "role": "user",
-      "content": "你好"
-    }
-  ]
-})
-
-headers = {
-  'Authorization': 'Bearer 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',
-  'Content-Type': 'application/json'
-}
+       
     ],
    
     "github": {
